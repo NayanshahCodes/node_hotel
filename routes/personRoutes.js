@@ -36,7 +36,7 @@ router.post('/',async(req,res)=>{
         console.log(err);
         res.status(500).json({error:'Internal server Error'});
     }
-})
+});
 
 // get method for person for spacific work type
 router.get('/:worktype',async(req,res)=>{
